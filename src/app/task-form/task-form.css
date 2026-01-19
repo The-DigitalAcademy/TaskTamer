@@ -1,0 +1,47 @@
+form{
+    background-color: rgb(212, 190, 210);
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.create{
+    text-align: center;
+    font-size: 25px;
+}
+
+#task{
+    padding-right: 100px;
+    padding-top: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#notes{
+    padding-right: 367px;
+    border-radius: 5px;
+    padding-bottom: 40px ;
+    margin-top: 10px;
+    /* Fix the notes bar to display text within the box and not run over */
+}
+
+select{
+    padding: 20px;
+    /* Fix the size of the box for priority and category */
+}
+
+#due-date{
+    padding: 7px 120px 7px 120px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+
+.submit-btn{
+    display: block;
+    margin: auto;
+    padding: 12px 40px 12px 40px;
+    border-radius: 5px;
+}
