@@ -1,0 +1,39 @@
+.signup-form{
+    background-color: rgb(212, 190, 210);
+    padding: 50px;
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px 400px 100px 400px;
+}
+
+.welcome{
+    text-align: center;
+    font-size: 25px;
+}
+
+input{
+    padding: 5px 266px 5px 0px;
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+label{
+    color: rgb(111, 110, 110);
+}
+
+.signup-btn{
+    padding: 13px 235px 13px 235px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.signin-redirect{
+    text-align: center;
+    color: gray;
+}
+strong{
+    color: black;
+}

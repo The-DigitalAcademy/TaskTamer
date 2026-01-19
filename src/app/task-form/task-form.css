@@ -1,8 +1,9 @@
 form{
     background-color: rgb(212, 190, 210);
-    padding: 20px;
+    padding: 50px;
     border-radius: 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px 350px 100px 350px;
 
 }
 
@@ -13,7 +14,8 @@ form{
 
 #task{
     padding-right: 100px;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 17px;
     margin-top: 10px;
     border-radius: 5px;
@@ -22,7 +24,8 @@ form{
 #notes{
     padding-right: 367px;
     border-radius: 5px;
-    padding-bottom: 40px ;
+    padding-bottom: 20px;
+    padding-top: 20px;
     margin-top: 10px;
     /* Fix the notes bar to display text within the box and not run over */
 }
@@ -45,3 +48,5 @@ select{
     padding: 12px 40px 12px 40px;
     border-radius: 5px;
 }
+
+
