@@ -1,21 +1,24 @@
-<form class="signup-form">
+<form  #formData="ngForm" class="signup-form">
     <div class="welcome"><strong>Welcome to TaskTamer!</strong></div>
 
+    <div>
+        <input type="text" id="username" name="name" [(ngModel)]="user.name"  placeholder="Enter your name" required>
+    </div>
+     <p class="danger-text">
+            <span>This is required</span>
+        </p>
     <p>
-        <input type="text" id="username" placeholder="Enter your name">
+        <input type="text" id="surname" name="surname" [(ngModel)]="user.surname" placeholder="Enter your surname" required>
     </p>
     <p>
-        <input type="text" id="surname" placeholder="Enter your surname">
-    </p>
-    <p>
-        <input type="email"  id="email" placeholder="Enter your email">
+        <input type="email"  id="email" name="email" [(ngModel)]="user.email" placeholder="Enter your email" required>
     </p>
     <p>
       
-        <input type="password" id="password" placeholder="Create new password">
+        <input type="password" id="password" name="password" [(ngModel)]="user.password" placeholder="Create new password" required>
     </p>
     <div>
-        <button class="signup-btn">Sign Up</button>
+        <button type="submit" [disabled]="formData.invalid" class="signup-btn">Sign Up</button>
     </div>
     <p class="signin-redirect">
         Already have a TaskTamer account? <a routerLink="/signin"><strong>Sign In</strong></a>
