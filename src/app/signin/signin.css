@@ -13,6 +13,7 @@
 
 input{
     padding: 13px 266px 5px 0px;
+    display: block;
     font-size: 17px;
     margin-top: 20px;
     border-radius: 5px;
@@ -22,14 +23,14 @@ label{
     color: rgb(111, 110, 110);
 }
 
-.signup-btn{
-    padding: 13px 216px 13px 216px;
+.signin-btn{
+    padding: 13px 219px 13px 218px;
     display: block;
     margin-top: 10px;
     border-radius: 5px;
 }
 
-.signin-redirect{
+.signup-redirect{
     text-align: center;
     color: gray;
 }
